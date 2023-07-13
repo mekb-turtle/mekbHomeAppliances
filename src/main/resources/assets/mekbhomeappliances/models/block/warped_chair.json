@@ -1,0 +1,7 @@
+{
+  "parent": "mekbhomeappliances:block/chair",
+  "textures": {
+    "log": "block/warped_stem",
+    "planks": "block/warped_planks"
+  }
+}

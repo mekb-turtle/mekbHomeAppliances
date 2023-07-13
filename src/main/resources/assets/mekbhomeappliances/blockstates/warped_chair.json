@@ -1,0 +1,152 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "half": "bottom",
+        "facing": "north"
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair",
+        "uvlock": false,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "facing": "north",
+        "connected_left": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair_left",
+        "uvlock": false,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "facing": "north",
+        "connected_right": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair_right",
+        "uvlock": false,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "facing": "east"
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair",
+        "uvlock": false,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "facing": "east",
+        "connected_left": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair_left",
+        "uvlock": false,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "facing": "east",
+        "connected_right": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair_right",
+        "uvlock": false,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "facing": "south"
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair",
+        "uvlock": false,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "facing": "south",
+        "connected_left": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair_left",
+        "uvlock": false,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "facing": "south",
+        "connected_right": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair_right",
+        "uvlock": false,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "facing": "west"
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair",
+        "uvlock": false,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "facing": "west",
+        "connected_left": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair_left",
+        "uvlock": false,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "half": "bottom",
+        "facing": "west",
+        "connected_right": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair_right",
+        "uvlock": false,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "half": "top"
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/warped_chair_top"
+      }
+    }
+  ]
+}

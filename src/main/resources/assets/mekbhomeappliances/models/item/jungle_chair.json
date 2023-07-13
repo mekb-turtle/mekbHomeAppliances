@@ -1,0 +1,7 @@
+{
+  "parent": "mekbhomeappliances:item/chair",
+  "textures": {
+    "log": "block/jungle_log",
+    "planks": "block/jungle_planks"
+  }
+}

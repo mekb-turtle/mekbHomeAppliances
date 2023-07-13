@@ -1,0 +1,7 @@
+{
+  "parent": "mekbhomeappliances:item/table",
+  "textures": {
+    "log": "block/oak_log",
+    "planks": "block/oak_planks"
+  }
+}

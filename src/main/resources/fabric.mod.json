@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mekbhomeappliances",
+  "version": "${version}",
+  "name": "mekb's Home Appliances",
+  "description": "Add tables and chairs to Minecraft",
+  "authors": [
+    "mekb-turtle"
+  ],
+  "contact": {
+    "repo": "https://github.com/mekb-turtle/mekbHomeAppliances"
+  },
+  "license": "MPL-2.0",
+  "icon": "assets/mekbhomeappliances/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.mekb.homeappliances.Main"
+    ],
+    "client": [
+      "me.mekb.homeappliances.client.ClientMain"
+    ]
+  },
+  "mixins": [
+    "mekbhomeappliances.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "1.20.x"
+  }
+}

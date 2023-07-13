@@ -1,0 +1,7 @@
+{
+  "parent": "mekbhomeappliances:block/chair",
+  "textures": {
+    "log": "block/acacia_log",
+    "planks": "block/acacia_planks"
+  }
+}

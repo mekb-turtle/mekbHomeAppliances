@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "mekbhomeappliances:oak_table",
+    "mekbhomeappliances:oak_chair",
+    "mekbhomeappliances:spruce_table",
+    "mekbhomeappliances:spruce_chair",
+    "mekbhomeappliances:birch_table",
+    "mekbhomeappliances:birch_chair",
+    "mekbhomeappliances:jungle_table",
+    "mekbhomeappliances:jungle_chair",
+    "mekbhomeappliances:acacia_table",
+    "mekbhomeappliances:acacia_chair",
+    "mekbhomeappliances:dark_oak_table",
+    "mekbhomeappliances:dark_oak_chair",
+    "mekbhomeappliances:mangrove_table",
+    "mekbhomeappliances:mangrove_chair",
+    "mekbhomeappliances:cherry_table",
+    "mekbhomeappliances:cherry_chair",
+    "mekbhomeappliances:bamboo_table",
+    "mekbhomeappliances:bamboo_chair",
+    "mekbhomeappliances:warped_table",
+    "mekbhomeappliances:warped_chair",
+    "mekbhomeappliances:crimson_table",
+    "mekbhomeappliances:crimson_chair"
+  ]
+}

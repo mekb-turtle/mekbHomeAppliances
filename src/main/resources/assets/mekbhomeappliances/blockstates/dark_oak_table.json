@@ -1,0 +1,50 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "mekbhomeappliances:block/dark_oak_table_top",
+        "uvlock": false
+      }
+    },
+    {
+      "when": {
+        "north_west_leg": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/dark_oak_table_leg",
+        "uvlock": true,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "north_east_leg": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/dark_oak_table_leg",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south_east_leg": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/dark_oak_table_leg",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south_west_leg": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/dark_oak_table_leg",
+        "uvlock": true,
+        "y": 270
+      }
+    }
+  ]
+}

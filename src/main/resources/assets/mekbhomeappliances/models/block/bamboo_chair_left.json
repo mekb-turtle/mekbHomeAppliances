@@ -1,0 +1,6 @@
+{
+  "parent": "mekbhomeappliances:block/chair_left",
+  "textures": {
+    "planks": "block/bamboo_planks"
+  }
+}

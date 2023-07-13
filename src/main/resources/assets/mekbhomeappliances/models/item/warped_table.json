@@ -1,0 +1,7 @@
+{
+  "parent": "mekbhomeappliances:item/table",
+  "textures": {
+    "log": "block/warped_stem",
+    "planks": "block/warped_planks"
+  }
+}
