@@ -4,9 +4,12 @@
   "package": "me.mekb.homeappliances.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "PistonBlockMixin",
     "ServerPlayerEntityMixin"
   ],
-  "client": [],
+  "client": [
+    "LivingEntityRendererMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }

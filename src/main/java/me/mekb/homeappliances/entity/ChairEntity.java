@@ -4,7 +4,9 @@ import me.mekb.homeappliances.block.ChairBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.render.entity.EntityRenderer;
 import net.minecraft.client.render.entity.EntityRendererFactory;
-import net.minecraft.entity.*;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
@@ -15,6 +17,10 @@ import net.minecraft.world.World;
 import java.util.List;
 
 public class ChairEntity extends Entity {
+    public ChairEntity(EntityType<?> type, World world) {
+        super(type, world);
+    }
+
     public static class ChairEntityRenderer extends EntityRenderer<ChairEntity> {
         public ChairEntityRenderer(EntityRendererFactory.Context ctx) {
             super(ctx);
@@ -24,10 +30,6 @@ public class ChairEntity extends Entity {
         public Identifier getTexture(ChairEntity entity) {
             return null;
         }
-    }
-
-    public ChairEntity(EntityType<?> type, World world) {
-        super(type, world);
     }
 
     @Override

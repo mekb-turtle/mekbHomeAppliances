@@ -20,6 +20,7 @@ public abstract class ServerPlayerEntityMixin extends PlayerEntity {
     @Inject(method = "onDisconnect", at = @At("HEAD"))
     private void disconnect(CallbackInfo ci) {
         if (getVehicle() instanceof ChairEntity) {
+            // so we can set the seated blockstate back to false
             stopRiding();
         }
     }

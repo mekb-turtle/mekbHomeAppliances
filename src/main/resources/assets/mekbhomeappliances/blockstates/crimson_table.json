@@ -45,6 +45,61 @@
         "uvlock": true,
         "y": 270
       }
+    },
+    {
+      "when": {
+        "north_leg": true,
+        "east_leg": false
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/crimson_table_leg_middle",
+        "uvlock": true,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "east_leg": true,
+        "north_leg": false
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/crimson_table_leg_middle",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south_leg": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/crimson_table_leg_middle",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west_leg": true
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/crimson_table_leg_middle",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "north_leg": true,
+        "east_leg": true,
+        "south_leg": false,
+        "west_leg": false
+      },
+      "apply": {
+        "model": "mekbhomeappliances:block/crimson_table_leg_middle_middle",
+        "uvlock": true,
+        "y": 0
+      }
     }
   ]
 }

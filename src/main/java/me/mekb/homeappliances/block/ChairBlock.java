@@ -5,6 +5,7 @@ import me.mekb.homeappliances.entity.ChairEntity;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.BlockHalf;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
@@ -301,8 +302,13 @@ public class ChairBlock extends HorizontalFacingBlock implements Waterloggable {
         world.spawnEntity(chairEntity);
         chairEntity.setPosition(pos.toCenterPos());
         chairEntity.setPitch(0);
-        Vec3i vector = state.get(FACING).getVector();
-        float degrees = (float) Math.toDegrees(Math.atan2(vector.getX(), vector.getZ()));
+        Direction facing = state.get(FACING);
+        float degrees = 0;
+        switch (facing) {
+            case WEST -> degrees = 90;
+            case NORTH -> degrees = 180;
+            case EAST -> degrees = 270;
+        };
         chairEntity.setYaw(degrees);
         if (player.startRiding(chairEntity)) {
             world.setBlockState(pos, state.with(SEATED, true));
