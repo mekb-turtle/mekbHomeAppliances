@@ -1,0 +1,7 @@
+{
+  "parent": "mekbhomeappliances:item/coffee_table",
+  "textures": {
+    "log": "block/crimson_stem",
+    "planks": "block/crimson_planks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "mekbhomeappliances:item/coffee_table",
+  "textures": {
+    "log": "block/stripped_bamboo_block",
+    "planks": "block/bamboo_planks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "mekbhomeappliances:block/coffee_table_top",
+  "textures": {
+    "planks": "block/birch_planks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "mekbhomeappliances:block/coffee_table_leg",
+  "textures": {
+    "log": "block/mangrove_log"
+  }
+}

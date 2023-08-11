@@ -1,6 +1,7 @@
 package me.mekb.homeappliances;
 
 import me.mekb.homeappliances.block.ChairBlock;
+import me.mekb.homeappliances.block.CoffeeTableBlock;
 import me.mekb.homeappliances.block.TableBlock;
 import me.mekb.homeappliances.entity.ChairEntity;
 import net.fabricmc.api.ModInitializer;
@@ -60,6 +61,15 @@ public class Main implements ModInitializer {
                 if (flammableBlock != null)
                     flammable.add(tableBlock, flammableBlock.getBurnChance(), flammableBlock.getSpreadChance());
 
+                // add coffee table for every wood type
+                Identifier coffeeTableID = new Identifier(namespace, name + "_coffee_table");
+                CoffeeTableBlock coffeeTableBlock = new CoffeeTableBlock(block);
+                BlockItem coffeeTableItem = new BlockItem(coffeeTableBlock, new FabricItemSettings());
+                Registry.register(Registries.BLOCK, coffeeTableID, coffeeTableBlock);
+                Registry.register(Registries.ITEM, coffeeTableID, coffeeTableItem);
+                if (flammableBlock != null)
+                    flammable.add(coffeeTableBlock, flammableBlock.getBurnChance(), flammableBlock.getSpreadChance());
+
                 // add chair for every wood type
                 Identifier chairID = new Identifier(namespace, name + "_chair");
                 ChairBlock chairBlock = new ChairBlock(block);
@@ -72,6 +82,7 @@ public class Main implements ModInitializer {
                 // add to creative inventory tabs
                 ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
                     content.add(tableItem);
+                    content.add(coffeeTableItem);
                     content.add(chairItem);
                 });
                 ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(content -> content.add(chairItem));
